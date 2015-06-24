@@ -1,0 +1,24 @@
+{
+  "name": "redirect-logger",
+  "version": "0.1.0",
+  "description": "To quickly create a running node server and start hackering.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dannyid/redirect-logger.git"
+  },
+  "author": "dannyid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannyid/redirect-logger/issues"
+  },
+  "homepage": "https://github.com/dannyid/redirect-logger#readme",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.13.0"
+  }
+}
